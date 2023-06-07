@@ -115,11 +115,12 @@
     height:100px;
     margin: auto;
     box-shadow:rgba(0,0,0,100%) 5px 5px 5px;
-    transition:0.4s;
+    transition: all 0.4s;
     cursor:pointer;
 }
 
 .choiceContainer:hover{
+    background: rgba(0,0,0,95%);
     box-shadow:rgba(0,0,0,100%) 10px 10px 5px;
 
 }
@@ -205,7 +206,7 @@
     height: 100px;
     text-align: center;
     background-color: #d0d3d4;
-    box-shadow: rgba(0,0,0,1) 5px 5px 15px;
+    box-shadow: rgba(0,0,0,1) 5px 5px 5px;
     transition: 0.4s;
     cursor: pointer;
 }
