@@ -28,37 +28,43 @@
 }
 
 .heroBackground {
-    background-color: lightskyblue;
+    background-image: url('https://images.immediate.co.uk/production/volatile/sites/23/2020/08/Beech-trees.-GettyImages-98871576-5cc0f6f.jpg');
 }
 
 .heroText {
     margin: auto;
-    color: Black;
+    color: white;
+
+}
+
+.cText {
+    margin: auto;
+    color: White;
 
 }
 
 .top {
-    bottom:100;
-    position: absolute;
+    bottom:0;
+    position: relative;
 }
 
 .center {
   align-items: center;
-  left: 47%;
+  left: 40%;
   text-align: center;
 }
 
 input[type="submit"] {
-    background-color: Yellow;
-    color: black;
+    background-color: yellowgreen;
+    color: Black;
     border: none;
     border-radius: 5px;
     padding: 10px 20px;
 }
 
 .poemContainer {
-    background-color: tan;
-    width: 45%;
+    background-color: saddlebrown;
+    width: 80%;
     padding: 10px;
     margin: 50px auto;
     border-style: dashed;
@@ -73,89 +79,5 @@ input[type="submit"] {
     color: black;
 }
 
-.textDecor {
-    margin: 30px auto;
-    width: 60%;
-}
 
-.choiceBackground {
-    width: 100%;
-    height: 800px;
-    margin: 50px auto;
-    text-align: center;
-    padding: 0;
-    background: url('../images/road-less-traveled-frost-1200x675.jpg');
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-size: cover;
-    background-attachment: fixed;
-    border-style: double;
-    border-left-style: none;
-    border-right-style: none;
-    border-color: white;
-    border-width: 15px;
-}
 
-.choiceWrapper {
-    display: flex;
-    flex-direction: row;
-    margin: auto;
-    width: 70%;
-}
-
-.choiceContainer {
-    background: rgba(0, 0, 0, 0.85);
-    border-style: dotted;
-    border-color: white;
-    text-align: center;
-    color: white;
-    width: 300px;
-    height: 100px;
-    margin: auto;
-    box-shadow: rgba(0, 0, 0, 1) 0px 0px 5px;
-    transition: 0.4s;
-    cursor: pointer;
-}
-
-.choiceContainer:hover {
-    box-shadow: rgba(0, 0, 0, 1) 10px 10px 5px;
-}
-
-.choiceSubText {
-    font-size: 20px;
-    margin: auto;
-    line-height: 100px;
-}
-
-.choiceText {
-    font-size: 30px;
-    margin: 150px auto 100px;
-    text-align: center;
-}
-
-.choiceLink {
-    margin: 350px auto;
-    height: 100px;
-}
-
-.choiceLink:hover,
-.choiceLink:visited,
-.choiceLink:link,
-.choiceLink:active {
-    text-decoration: none;
-}
-
-.galleryWrapper {
-    display: flex;
-    width: 100%;
-}
-
-.galleryVideo {
-    width: 560px;
-    height: 315px;
-    margin: 50px auto;
-    border-style: solid;
-    border-color: black;
-    border-width: 5px;
-    box-shadow: rgba(0, 0, 0, 0.85) 10px 10px 5px;
-}
