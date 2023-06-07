@@ -24,42 +24,46 @@
     </div>
     <div class="poemContainer">
         <h2 class="NormalText">Quiz Questions:</h2>
-        <form id="quizForm">
+        <form id="quizForm" >
             <h3 class="NormalText">1. How many parts is the poem divided into?</h3>
-            <label><input type="radio" name="q1" value="a">a) Four</label><br>
-            <label><input type="radio" name="q1" value="b">b) Three</label><br>
-            <label><input type="radio" name="q1" value="c">c) Two</label><br>
-            <label><input type="radio" name="q1" value="d">d) Five</label><br>
+            <label class="labelText"><input type="radio" name="q1" value="a">a) Four</label><br>
+            <label class="labelText"><input type="radio" name="q1" value="b">b) Three</label><br>
+            <label class="labelText"><input type="radio" name="q1" value="c">c) Two</label><br>
+            <label class="labelText"><input type="radio" name="q1" value="d">d) Five</label><br>
 
             <h3 class="NormalText">2. What is the rhyme scheme of the poem?</h3>
-            <label><input type="radio" name="q2" value="a">a) AABB</label><br>
-            <label><input type="radio" name="q2" value="b">b) ABAAB</label><br>
-            <label><input type="radio" name="q2" value="c">c) ABBA</label><br>
-            <label><input type="radio" name="q2" value="d">d) ABCB</label><br>
+            <label class="labelText"><input type="radio" name="q2" value="a">a) AABB</label><br>
+            <label class="labelText"><input type="radio" name="q2" value="b">b) ABAAB</label><br>
+            <label class="labelText"><input type="radio" name="q2" value="c">c) ABBA</label><br>
+            <label class="labelText"><input type="radio" name="q2" value="d">d) ABCB</label><br>
 
             <h3 class="NormalText">3. What does the poem suggest about the chosen path?</h3>
-            <label><input type="radio" name="q3" value="a">a) It is always better than the alternative path</label><br>
-            <label><input type="radio" name="q3" value="b">b) It is identical to the alternative path</label><br>
-            <label><input type="radio" name="q3" value="c">c) It is a lighthearted joke</label><br>
-            <label><input type="radio" name="q3" value="d">d) It is distinct and special</label><br>
+            <label class="labelText"><input type="radio" name="q3" value="a">a) It is always better than the alternative path</label><br>
+            <label class="labelText"><input type="radio" name="q3" value="b">b) It is identical to the alternative path</label><br>
+            <label class="labelText"><input type="radio" name="q3" value="c">c) It is a lighthearted joke</label><br>
+            <label class="labelText"><input type="radio" name="q3" value="d">d) It is distinct and special</label><br>
 
             <h3 class="NormalText">4. What is the purpose of the "sigh" mentioned in the poem?</h3>
-            <label><input type="radio" name="q4" value="a">a) To express regret for the road not taken</label><br>
-            <label><input type="radio" name="q4" value="b">b) To signify contented acceptance of the chosen path</label><br>
-            <label><input type="radio" name="q4" value="c">c) To leave room for contemplation</label><br>
-            <label><input type="radio" name="q4" value="d">d) All of the above</label><br>
+            <label class="labelText"><input type="radio" name="q4" value="a">a) To express regret for the road not taken</label><br>
+            <label class="labelText"><input type="radio" name="q4" value="b">b) To signify contented acceptance of the chosen path</label><br>
+            <label class="labelText"><input type="radio" name="q4" value="c">c) To leave room for contemplation</label><br>
+            <label class="labelText"><input type="radio" name="q4" value="d">d) All of the above</label><br>
 
             <h3 class="NormalText">5. What does the poem remind us about life and choices?</h3>
-            <label><input type="radio" name="q5" value="a">a) Life is unpredictable</label><br>
-            <label><input type="radio" name="q5" value="b">b) Choices have consequences</label><br>
-            <label><input type="radio" name="q5" value="c">c) There are always unexplored aspects</label><br>
-            <label><input type="radio" name="q5" value="d">d) All of the above</label><br>
+            <label class="labelText"><input type="radio" name="q5" value="a">a) Life is unpredictable</label><br>
+            <label class="labelText"><input type="radio" name="q5" value="b">b) Choices have consequences</label><br>
+            <label class="labelText"><input type="radio" name="q5" value="c">c) There are always unexplored aspects</label><br>
+            <label class="labelText"><input type="radio" name="q5" value="d">d) All of the above</label><br>
 
             <br>
-            <input type="submit" value="Submit">
+            <div >
+                <input type="submit" value="Submit" id="submitCode">
+            </div>
         </form>
     </div>
-
-    <input onclick="Back()" class="top center" type="submit" value="Go Back"> <input onclick="homepage()" class="top center" type="submit" value="Return To Homepage"> 
+	<div class="buttonAlign">
+        <input onclick="Back()" class="top center" type="submit" value="Go Back"> 
+        <input onclick="homepage()" class="top center" type="submit" value="Return To Homepage"> 
+    </div>
 </body>
 </html>
