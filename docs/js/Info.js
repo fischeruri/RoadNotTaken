@@ -223,3 +223,7 @@ function showGrade() {
     document.getElementById("tableGrade").style.display = "table";
     document.getElementById("grade").innerHTML = (grade*20).toString();
 }
+
+function home() {
+    window.open("../pages/index.html", "_self");
+}
