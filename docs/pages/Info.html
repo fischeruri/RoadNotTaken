@@ -1,0 +1,127 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <title>The Road Not Taken</title>
+    <script src="../js/Info.js"></script>
+    <link rel="stylesheet" href="../css/StyleSheet.css">
+</head>
+<body class="heroc">
+    <!--title-->
+    <div>
+        <h1 class="heroText">The Road Not Taken</h1>
+    </div>
+    <div id="needHide">
+        <!--info about frost and the poem-->
+        <div class="poemContainer" id="tableInfo">
+            <h1 class="poemTitle">
+                Robert L. Frost
+            </h1>
+            <p class="poemText">
+                Robert Lee Frost was an American poet who lived during the 19th and 20th centuries. His literary contributions were recognized with numerous accolades. Frost won four Pulitzer Prizes for his remarkable works, including "New Hampshire" in 1924, "Collected Poems" in 1931, "A Further Range" in 1937, and "A Witness Tree" in 1943. His exceptional talent was also acknowledged with prestigious awards such as the Congressional Gold Medal and the Edward MacDowell medal in 1962, and the Bollingen Prize in 1963. Additionally, Frost was nominated for the Nobel Prize in Literature an impressive 31 times. Furthermore, he received over 40 honorary degrees from esteemed institutions, including Harvard, Princeton, Oxford, Cambridge, and more. Notably, Frost holds the distinction of being the only person to receive two honorary degrees from Dartmouth.
+            </p>
+        </div>
+        <div class="poemContainer" id="tableInfo">
+            <h1 class="poemTitle">
+                Early Life and Education
+            </h1>
+            <p class="poemText">
+                Robert Lee Frost was born on March 26, 1874, in San Francisco, California. His formative years were spent in San Francisco until 1886 when his family moved to Lawrence, Massachusetts, following the death of his father due to tuberculosis. Frost's affinity for poetry emerged during his time at Lawrence High School, where he published his first poem in the school's magazine. Graduating in 1892, Frost briefly attended Dartmouth College before returning home to teach and explore various jobs. However, he soon realized that his true calling lay in writing poetry. In 1894, Frost published his first poem titled "My Butterfly. An Elegy" and a year later, he married Elinor M. White. Although Frost attended Harvard University in 1897, his studies were interrupted by illness, leading to his departure after two years.
+            </p>
+        </div>
+        <div class="poemContainer" id="tableInfo">
+            <h1 class="poemTitle">
+                Finding Inspiration and Teaching
+            </h1>
+            <p class="poemText">
+                Following his time at Harvard, Frost spent nine years working on a farm in Derry, New Hampshire, a property his grandfather had purchased for him and his wife. It was during this period that Frost penned many of his renowned poems. However, the farm's lack of success led Frost to teach English at several schools in the New Hampshire area. In 1912, he embarked on a significant change by moving with his family to England. It was in England where Frost published two poetry collections, "A Boy's Will" in 1913 and "North of Boston" in 1914. With the outbreak of the First World War in 1915, Frost returned to America and purchased a farm in Franconia, New Hampshire, known today as "The Frost Place," a museum and nonprofit educational center for poetry. In 1916, Frost received the prestigious honor of becoming an honorary member of "Phi Beta Kappa" at Harvard, solidifying his scholarly recognition. From 1917 to 1920, Frost taught English at Amherst College in Massachusetts, where he encouraged his students to capture the essence of spoken English in their writing, an approach he termed "the sound of sense." He further pursued his teaching career with a fellowship teaching post at the University of Michigan from 1921 to 1927, after which he returned to teach at Amherst. Frost also devoted his summers and autumns from 1921 to 1962 to teaching at the "Bread Loaf School of English" at Middlebury College.
+            </p>
+        </div>
+        <div class="poemContainer" id="tableInfo">
+            <h1 class="poemTitle">
+                Personal Loss and Enduring Legacy
+            </h1>
+            <p class="poemText">
+                Tragedy struck Robert Frost's life in 1938 when his wife, Elinor, passed away due to heart failure. Despite this profound loss, Frost continued to make significant contributions to the literary world. In 1961, he had the honor of performing a reading at the inauguration of President John F. Kennedy, a testament to his enduring influence and popularity.
+
+                Sadly, Robert Frost himself passed away on January 29, 1963, in Boston, Massachusetts, due to complications from prostate surgery. His departure marked the end of an era for American poetry. Today, Frost's legacy lives on through his profound impact on the literary landscape.
+
+                Robert Frost is buried in the Old Bennington Cemetery in Vermont, where his grave bears the inscription, "I had a lover's quarrel with the world," the poignant final line from his poem "The Lesson for Today." Despite his untimely departure, Frost's literary achievements continue to captivate readers and inspire generations to come.
+
+                In addition to his illustrious career, Frost was also a family man. He and Elinor had six children, although tragically, only two outlived him. Their family bonds and the influence of Frost's poetic genius created a rich and enduring legacy that is cherished to this day.
+            </p>
+        </div>
+
+
+        <div class="poemContainer" id="tableInfo">
+            <h1 class="poemTitle">
+                The poem
+            </h1>
+            <p class="poemText">
+                During his time in England (1912-1915) Frost became a close friend of Edward Thomas, a British poet. They took many walks together, and one day they came across two roads. Thomas was indecisive about which road to take, and would later lament that they should have taken the other one. This event inspired Frost to write “The Road Not Taken”. After returning to America he sent Thomas an advance copy of the poem. Some believe that the poem might have been significant in Thomas’ decision to enlist in the first world war. He was killed two years later in the Battle of Arras.
+            </p>
+        </div>
+   
+    <!--button to start quiz-->
+    <table class="center" id="tableSTest">
+        <tr><td><button type="submit" id="SQuiz" name="SQuiz" onclick="StartQuiz()">Start Quiz</button></td></tr>
+    </table>
+    </div>
+
+    <!--all radio questions have different ids. to switch correct answere simply switch the ids (Q1T = the correct answere to Q1)-->
+    <div class="poemContainer" id="tableTest" style="display: none">
+        <!--grade-->
+        <table id="tableGrade" class="center" style="display: none">
+            <tr>
+                <td><h1 class="heroText">You got:   </h1></td>
+                <td><h1 id="grade" class="heroText"></h1></td>
+            </tr>
+        </table>
+
+        <!--question 1-->
+        <h1 class="poemTitle">Q1. What was the year of Frost's birth?</h1>
+        <input type="radio" id="Q1F1" name="Q1" /><lable id="LQ1F1" class="poemText" for="Q1F1">1914</lable><br />
+        <input type="radio" id="Q1F2" name="Q1" /><lable id="LQ1F2" class="poemText" for="Q1F2">1862</lable><br />
+        <input type="radio" id="Q1T" name="Q1" /><lable id="LQ1T" class="poemText" for="Q1T">1874</lable><br />
+        <input type="radio" id="Q1F3" name="Q1" /><lable id="LQ1F3" class="poemText" for="Q1F3">1886</lable>
+
+        <!--question 2-->
+        <h1 class="poemTitle">Q2. Who was Frost's wife?</h1>
+        <input class="poemText" type="radio" id="Q2T" name="Q2" /><lable id="LQ2T" class="poemText" for="Q2T">Elinor White</lable><br />
+        <input class="poemText" type="radio" id="Q2F1" name="Q2" /><lable id="LQ2F1" class="poemText" for="Q2F1">Elizabeth Snow</lable><br />
+        <input class="poemText" type="radio" id="Q2F2" name="Q2" /><lable id="LQ2F2" class="poemText" for="Q2F2">Elaine Frost</lable><br />
+        <input class="poemText" type="radio" id="Q2F3" name="Q2" /><lable id="LQ2F3" class="poemText" for="Q2F3">Emily Mcgill</lable>
+
+        <!--question 3-->
+        <h1 class="poemTitle">Q3. Frost performed in a reading of which United States president?</h1>
+        <input class="poemText" type="radio" id="Q3F1" name="Q3" /><lable id="LQ3F1" class="poemText" for="Q3F1">George Washington</lable><br />
+        <input class="poemText" type="radio" id="Q3F2" name="Q3" /><lable id="LQ3F2" class="poemText" for="Q3F2">George Bush</lable><br />
+        <input class="poemText" type="radio" id="Q3T" name="Q3" /><lable id="LQ3T" class="poemText" for="Q3T">John F. Kennedy</lable><br />
+        <input class="poemText" type="radio" id="Q3F3" name="Q3" /><lable id="LQ3F3" class="poemText" for="Q3F3">Barack Obama</lable>
+
+        <!--question 4-->
+        <h1 class="poemTitle">Q4. Complete the sentences</h1>
+        <p style="text-align:center;" class="poemText">Robert Frost won <select id="Q4a" name="Q4a"><option value="false">2</option><option value="false">3</option><option value="true">4</option><option value="false">5</option></select> Pulitzer Prizes.</p>
+        <p style="text-align:center;" class="poemText">Robert Frost was nominated for the Nobel Prize in Literature <select id="Q4b" name="Q4b"><option value="false">5</option><option value="false">18</option><option value="false">23</option><option value="true">31</option><option value="false">39</option></select> times.</p>
+        <p style="text-align:center;" class="poemText">
+            On Frost's grave: "<select id="Q4c" name="Q4c"><option value="true">I had a lover’s quarrel with the world.</option><option value="false">And of course there must be something wrong In wanting to silence any song.</option><option value="false">I took the one less traveled by, And that has made all the difference.</option></select>" is written.
+            That line originates from the poem, "<select id="Q4d" name="Q4d"><option value="false">A Minor Bird</option><option value="true">The Lesson for Today</option><option value="false">The Road Not Taken</option><option value="false">The Death of the Hired Man</option></select>".
+        </p>
+
+        <!--question 5-->
+        <h1 class="poemTitle">Q5. (Choose two answers) After writing "The Road Not Taken", Frost sent the poem to his friend Edward Thomas. Some belive that:</h1>
+        <input type="checkbox" id="Q5T1" name="Q5T1" value="true" /><label id="LQ5T1" class="poemText" for="Q5T1">it was significant in Thomas’ decision to enlist in WWI.</label><br />
+        <input type="checkbox" id="Q5F1" name="Q5F1" value="false" /><label id="LQ5F1" class="poemText" for="Q5F1">Thomas hated it.</label><br />
+        <input type="checkbox" id="Q5T2" name="Q5T2" value="true" /><label id="LQ5T2" class="poemText" for="Q5T2">it indirectly caused Thomas' death.</label><br />
+        <input type="checkbox" id="Q5F2" name="Q5F2" value="false" /><label id="LQ5F2" class="poemText" for="Q5F2">Thomas never received it.</label>
+
+        <!--button to submit quiz-->
+        <table id="tableSubmit" class="center">
+            <tr><td><button type="submit" id="submit" name="submit" onclick="chkQuiz()">Submit Answers</button></td></tr>
+        </table>
+        <table id="tableSubmit" class="center">
+            <tr><td><button type="submit" id="return" name="return" onclick="EndQuiz()">Return To Info</button></td></tr>
+        </table>
+    </div>
+</body>
+</html>
